@@ -14,23 +14,6 @@ class _HomePageViewState extends State<HomePageView> {
   final ShoppingListService _listService = ShoppingListService();
   bool modeicon = false;
 
-  IconData _iconLight = Icons.wb_sunny;
-  IconData _iconDark = Icons.nights_stay;
-
-  ThemeData _darkTheme = ThemeData(
-    primarySwatch: Colors.yellow,
-    brightness: Brightness.dark,
-  );
-
-  ThemeData _lightTheme = ThemeData(
-    primarySwatch: Colors.amber,
-    brightness: Brightness.light,
-  );
-
-  void switchMode() {
-    modeicon = !modeicon;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

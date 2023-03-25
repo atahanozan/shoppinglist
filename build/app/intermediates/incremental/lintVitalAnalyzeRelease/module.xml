@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Tremglobal78\Desktop\ozan_projeler\shopping_list\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="C:\Users\Tremglobal78\Desktop\ozan_projeler\shopping_list\build\app"
+    bootClassPath="C:\Users\Tremglobal78\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\Tremglobal78\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
